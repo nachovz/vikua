@@ -24,7 +24,7 @@ header {
 
 b{
 	font-weight: bold;
-	color:#272822;
+	color:#7D7D7D;
 }
 
 .social {
@@ -104,7 +104,8 @@ b{
 }
 
 .tab-text span {
-	font-size: 18px;
+	font-size: 14px;
+	font-weight: bolder;
 }
 
 .item img {
@@ -188,7 +189,7 @@ footer {
 
 .tab-text-2 {
 	text-align: justify;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .tab-text-2 span {
@@ -300,3 +301,32 @@ footer {
 #sinapsis-10{
 	width: 62px;
 }
+
+.span3 a img{
+	height: 70px;
+}
+
+.site-image-vikua{
+	width: 100%;
+	min-height: 400px;
+	background: url(../images/vikua.png) no-repeat;
+	background-position: -122px -57px;
+	overflow: hidden;
+}
+
+#vikua-1{
+	width:135px;
+}
+#vikua-2{
+	width:135px;
+}
+#vikua-3{
+	width:135px;
+}
+#vikua-4{
+	width:135px;
+}
+#vikua-5{
+	width:135px;
+}
+

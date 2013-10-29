@@ -11,7 +11,7 @@
 			<div class="container-stretcher">
 				<header>
 					<div class="row">
-						<div class="span2">
+						<div class="span3">
 							<a href="index.html">
 								<img src="images/logo.png">
 							</a>
@@ -38,7 +38,7 @@
 					</div>
 				</header>
 				<div class="row">
-					<div class="span6">
+					<div class="span5 text-center">
 						<!-- <div class="row small-text">
 							<div class="span2 text-center">
 								<img src="images/tv.png">
@@ -59,21 +59,21 @@
 								</p>
 							</div>
 						</div> -->
-						<h1 style="text-align:center;">In-Traffic</h1>
-						<br>
-						<div class="row">
-							<div class="span6 text-center">
-								<img src="images/Intraffic.png">
-							</div>
-						</div>
+						<img src="images/Intraffic.png" style="margin-top:-90px;">
+						<img src="images/logo-intraffic.png" style="margin-top:-100px;width:250px;">
 					</div>
-					<div class="span6">
+					<div class="span7">
 						<ul class="nav nav-tabs">
-							<li class="active"><a href="#tab1" data-toggle="tab">Definici&oacute;n</a></li>
+							<li class="active" style="width: 175px;text-align:center;"><a href="#tab1" data-toggle="tab" style="margin:auto;text-align:center;">Definici&oacute;n</a></li>
+							<img class="tab-divider" src="images/tab-divider.png">
+							<li style="width: 175px;"><a href="#tab2" data-toggle="tab" style="margin:auto;text-align:center;">Documentaci&oacute;n</a></li>
+							<img class="tab-divider" src="images/tab-divider.png">
+							<li style="width: 175px;"><a href="#tab3" data-toggle="tab" style="margin:auto;text-align:center;">Contacto</a></li>
+							<!-- <li class="active"><a href="#tab1" data-toggle="tab">Definici&oacute;n</a></li>
 							<img class="tab-divider" src="images/tab-divider.png">
 							<li ><a href="#tab2" data-toggle="tab">Documentaci&oacute;n API</a></li>
 							<img class="tab-divider" src="images/tab-divider.png">
-							<li ><a href="#tab3" data-toggle="tab">Contacto</a></li>
+							<li ><a href="#tab3" data-toggle="tab">Contacto</a></li> -->
 						</ul>
 						<div class="tab-content">
 							<div class="tab-pane active" id="tab1">
@@ -228,29 +228,39 @@
 							<div class="tab-pane" id="tab3">
 								<p class="tab-text">
 									<span>Cont&aacute;ctanos</span><br>
-									<form role="form">
-									  <div class="form-group">
-									    <label for="name">Nombre y Apellido</label>
-									    <input type="name" class="form-control" id="name" placeholder="Nombre y Apellido">
-									  </div>
-									  <div class="form-group">
-									    <label for="email">Correo electr&oacute;nico</label>
-									    <input type="email" class="form-control" id="email" placeholder="Correo electr&oacute;nico">
-									  </div>
-									  <div class="form-group">
-									    <label for="telefono">Tel&eacute;fono</label>
-									    <input type="phone" class="form-control" id="telefono" placeholder="Tel&eacute;fono">
-									  </div>
-									  <div class="form-group">
-									    <label for="asunto">Asunto</label>
-									    <input type="text" class="form-control" id="asunto" placeholder="Asunto">
-									  </div>
-									  <div class="form-group">
-									    <label for="contenido">Contenido</label>
-									    <textarea class="form-control" id="content" rows="3"></textarea>
-									  </div>
-									  <button type="submit" class="btn btn-default">Eviar</button>
-									</form>								
+									<form role="form" class="form-horizontal">
+										  <div class="control-group">
+										    <label for="name" class="control-label">Nombre</label>
+										    <div class="controls">
+										    	<input type="text" class="form-control" id="name" placeholder="Nombre">
+										    </div>
+										  </div>
+										  <div class="control-group">
+										    <label class="control-label" for="lastname">Apellido</label>
+										    <div class="controls">
+										    	<input type="text" class="form-control" id="lastname" placeholder="Apellido">
+											</div>
+										  </div>
+										  <div class="control-group">
+										    <label class="control-label" for="email">Email</label>
+										    <div class="controls">
+										    	<input type="email" class="form-control" id="email" placeholder="Email">
+										    </div>
+										  </div>
+										  <div class="control-group">
+										    <label class="control-label" for="asunto">Asunto</label>
+										    <div class="controls">
+										    	<input type="text" class="form-control" id="asunto" placeholder="Asunto">
+										    </div>
+										  </div>
+										  <div class="control-group">
+										    <label class="control-label" for="contenido">Contenido</label>
+										    <div class="controls">
+										    	<textarea class="form-control" id="content" rows="3"></textarea>
+										    </div>
+										  </div>
+										  <button type="submit" class="btn btn-default">Enviar</button>
+										</form>								
 								</p>
 								<!-- <div id="myCarousel-3" class="carousel slide">
 									<!-- Carousel items --
