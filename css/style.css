@@ -142,13 +142,15 @@ footer {
 
 .footer-border {
 	position: absolute;
-	z-index: 1
+	z-index: 1;
+	display: inline-block;
 }
 
 .btn-footer {
 	width: 48px;
 	height: 50px;
-	padding: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
 	display: inline-block;
 	position: relative;
 	z-index: 2;
@@ -159,6 +161,10 @@ footer {
 	background-repeat: no-repeat;
 	background-position: 0 43px;
 	background-size: 100%;
+}
+
+.btn-footer:hover {
+	background-image: url(../images/sombra.png)
 }
 
 .description .nav-tabs li a {
@@ -310,7 +316,7 @@ footer {
 	width: 100%;
 	min-height: 400px;
 	background: url(../images/vikua.png) no-repeat;
-	background-position: -122px -57px;
+	background-position: -60px 0px;
 	overflow: hidden;
 }
 
